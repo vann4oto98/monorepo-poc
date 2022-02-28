@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "airbnb",
+    "prettier",
+    "prettier/react",
+    "plugin:jest/recommended"
+  ],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  },
+  "env": {
+    "jest/globals": true
+  },
+  "plugins": ["prettier", "jest", "react-hooks"]
+}

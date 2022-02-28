@@ -1,0 +1,21 @@
+{
+  "name": "proof-of-concept",
+  "version": "1.0.0",
+  "description": "Monorepo component library",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "publish": "lerna run publish",
+    "build": "lerna run build"
+  },
+  "devDependencies": {
+    "lerna": "4.0.0",
+    "prettier": "2.5.1"
+  },
+  "dependencies": {}
+}
