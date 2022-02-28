@@ -16,17 +16,21 @@
     "access": "public"
   },
   "scripts": {
+    "major": "yarn version major",
+    "minor": "yarn version minor",
+    "patch": "yarn version patch",
     "publish": "yarn publish",
+    "lint": "eslint ./lib/* --fix",
     "test": "jest"
   },
   "dependencies": {
     "@mui/material": "5.4.0",
     "react": "17.0.2",
-    "@poc-components/theme": "0.0.2"
+    "@poc-components/theme": "0.0.2",
+    "prop-types": "15.7.2"
   },
   "devDependencies": {
     "eslint": "^8.10.0",
-    "prettier": "^2.5.1",
-    "prop-types": "15.7.2"
+    "prettier": "^2.5.1"
   }
 }

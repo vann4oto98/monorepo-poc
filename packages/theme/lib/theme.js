@@ -6,7 +6,7 @@ const baseFontFamily = [
   "Arial Nova",
   "Helvetica",
   "Arial",
-  "sans-serif",
+  "sans-serif"
 ];
 
 export const unifyFontFamily = ["Unify Sans", ...baseFontFamily].join(",");
@@ -18,7 +18,7 @@ export const serifFontFamily = ["Georgia", "Times New Roman", "serif"].join(
 );
 
 export const panel = {
-  zIndex: 1099,
+  zIndex: 1099
 };
 
 export const Colors = {
@@ -92,43 +92,43 @@ export const Colors = {
   tealLight: "#91dce3",
   tealLighter: "#bef9f5",
   warningYellow: "#ffd020",
-  white: "#ffffff",
+  white: "#ffffff"
 };
 
 const theme = createTheme({
   palette: {
     primary: {
-      main: Colors.white,
+      main: Colors.white
     },
     secondary: {
       main: Colors.blueDark,
-      light: Colors.blue1,
+      light: Colors.blue1
     },
     accessory: {
       navy: Colors.indigoDark,
       lightGrey: Colors.gray5,
       azure: Colors.blue1,
       mango: Colors.mango,
-      black: Colors.gray2,
+      black: Colors.gray2
     },
     text: {
       primary: Colors.gray2,
       secondary: Colors.gray3,
       light: Colors.white,
-      dark: Colors.gray4,
+      dark: Colors.gray4
     },
     error: {
-      main: red.A400,
+      main: red.A400
     },
     background: {
       default: Colors.white,
       navigation: Colors.black,
       grey: Colors.gray7,
-      darkGrey: Colors.gray6,
+      darkGrey: Colors.gray6
     },
     all: {
-      ...Colors,
-    },
+      ...Colors
+    }
   },
   typography: {
     fontFamily: serifFontFamily,
@@ -136,72 +136,72 @@ const theme = createTheme({
     h1: {
       fontFamily: unifyFontFamily,
       fontSize: 28,
-      fontWeight: "bold",
+      fontWeight: "bold"
     },
     h2: {
       fontFamily: unifyFontFamily,
       fontSize: 20,
-      fontWeight: "bold",
+      fontWeight: "bold"
     },
     h3: {
       fontFamily: unifyFontFamily,
       fontSize: 18,
-      fontWeight: "bold",
+      fontWeight: "bold"
     },
     h4: {
       fontFamily: unifyFontFamily,
       fontSize: 16,
       fontWeight: "bold",
-      color: Colors.gray3,
+      color: Colors.gray3
     },
     h5: {
       fontFamily: unifyFontFamily,
       fontSize: 14,
-      fontWeight: "bold",
+      fontWeight: "bold"
     },
     h6: {
       fontFamily: unifyFontFamily,
       fontSize: 12,
       fontWeight: "bold",
-      color: Colors.gray3,
+      color: Colors.gray3
     },
     subtitle1: {
       fontSize: 14,
-      color: Colors.gray2,
+      color: Colors.gray2
     },
     subtitle2: {
       fontSize: 12,
-      color: Colors.gray2,
+      color: Colors.gray2
     },
     body1: {
-      fontSize: 14,
+      fontSize: 14
     },
     body2: {
       fontFamily: unifyFontFamily,
-      fontSize: 14,
+      fontSize: 14
     },
     caption: {
-      fontFamily: unifyRgFontFamily,
+      fontFamily: unifyRgFontFamily
     },
     overline: {
       fontSize: 12,
-      color: Colors.gray4,
+      color: Colors.gray4
     },
     menuLink: {
       fontFamily: unifyRgFontFamily,
       fontSize: 14,
-      color: Colors.gray4,
+      color: Colors.gray4
     },
     input: {
       fontFamily: serifFontFamily,
-      fontSize: 14,
-    },
+      fontSize: 14
+    }
   },
   components: {
     MuiButtonBase: {
       defaultProps: {
-        disableRipple: true,
-      },
+        disableRipple: true
+      }
     },
     MuiButton: {
       styleOverrides: {
@@ -212,7 +212,7 @@ const theme = createTheme({
           textTransform: "capitalize",
           maxHeight: 36,
           minWidth: 145,
-          marginBottom: 35,
+          marginBottom: 35
         },
         contained: {
           backgroundColor: Colors.blueDark,
@@ -220,8 +220,8 @@ const theme = createTheme({
           border: `2px solid ${Colors.blueDark}`,
           "&:hover": {
             border: `2px solid ${Colors.blueDarkHover}`,
-            backgroundColor: Colors.blueDarkHover,
-          },
+            backgroundColor: Colors.blueDarkHover
+          }
         },
         outlined: {
           backgroundColor: Colors.white,
@@ -230,8 +230,8 @@ const theme = createTheme({
           "&:hover": {
             color: Colors.white,
             backgroundColor: Colors.blueDark,
-            border: `2px solid ${Colors.blueDark}`,
-          },
+            border: `2px solid ${Colors.blueDark}`
+          }
         },
         text: {
           backgroundColor: Colors.white,
@@ -240,10 +240,10 @@ const theme = createTheme({
           "&:hover": {
             border: `2px solid ${Colors.blueDarkHover}`,
             backgroundColor: Colors.blueDarkHover,
-            color: Colors.white,
-          },
-        },
-      },
+            color: Colors.white
+          }
+        }
+      }
     },
     MuiLink: {
       variants: [
@@ -255,9 +255,9 @@ const theme = createTheme({
             fontSize: 12,
             textDecoration: "underline",
             border: "none",
-            boxShadow: "none",
-          },
-        },
+            boxShadow: "none"
+          }
+        }
       ],
       styleOverrides: {
         root: {
@@ -268,12 +268,12 @@ const theme = createTheme({
           color: Colors.gray2,
           "&:focus, &:hover, &:visited, &:link, &:active": {
             textDecoration: "none",
-            borderBottom: `2px solid ${Colors.blue1}`,
-          },
-        },
-      },
-    },
-  },
+            borderBottom: `2px solid ${Colors.blue1}`
+          }
+        }
+      }
+    }
+  }
 });
 
 export default theme;
