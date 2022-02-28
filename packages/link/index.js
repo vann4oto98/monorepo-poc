@@ -1,1 +1,3 @@
-export { default as Link } from "./lib/index";
+import Link from "./lib/index";
+
+export default Link;

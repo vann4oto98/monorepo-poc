@@ -1,6 +1,6 @@
 {
   "name": "@poc-components/theme",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Theme",
   "keywords": [],
   "license": "ISC",
@@ -19,15 +19,15 @@
     "publish": "yarn publish",
     "test": "jest",
     "lint": "eslint ./lib/* --fix",
-    "major": "yarn version major",
-    "minor": "yarn version minor",
-    "patch": "yarn version patch"
+    "major": "yarn version --major",
+    "minor": "yarn version --minor",
+    "patch": "yarn version --patch"
   },
   "dependencies": {
     "@mui/material": "5.4.0",
     "@mui/system": "5.4.0",
-    "react": "17.0.2",
-    "prop-types": "15.7.2"
+    "prop-types": "15.7.2",
+    "react": "17.0.2"
   },
   "devDependencies": {
     "eslint": "^8.10.0",

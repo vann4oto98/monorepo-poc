@@ -1,6 +1,6 @@
 {
   "name": "@poc-components/core",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "keywords": [],
   "license": "ISC",
@@ -16,9 +16,9 @@
     "access": "public"
   },
   "scripts": {
-    "major": "yarn version major",
-    "minor": "yarn version minor",
-    "patch": "yarn version patch",
+    "major": "yarn version --major",
+    "minor": "yarn version --minor",
+    "patch": "yarn version --patch",
     "publish": "yarn publish",
     "lint": "eslint ./lib/* --fix",
     "test": "jest"

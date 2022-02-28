@@ -1,1 +1,3 @@
-export { default as theme } from "./lib/index";
+import theme from "./lib/index";
+
+export default theme;

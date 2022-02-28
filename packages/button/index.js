@@ -1,1 +1,3 @@
-export { default as Button } from "./lib/index";
+import Button from "./lib/index";
+
+export default Button;
