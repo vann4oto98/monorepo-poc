@@ -1,1 +1,3 @@
-export { default as Typography } from "./lib/index";
+import Typogaphy from "./lib/index";
+
+export default Typogaphy;

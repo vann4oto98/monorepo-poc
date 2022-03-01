@@ -1,6 +1,6 @@
 {
   "name": "@poc-components/typography",
-  "version": "0.0.6",
+  "version": "0.0.0",
   "description": "Typography",
   "keywords": [],
   "author": "Vanyo Ivanov <vanyoivanov98@gmail.com>",
@@ -26,11 +26,6 @@
   },
   "dependencies": {
     "@mui/material": "5.4.0",
-    "prop-types": "15.7.2",
     "react": "17.0.2"
-  },
-  "devDependencies": {
-    "eslint": "^8.10.0",
-    "prettier": "^2.5.1"
   }
 }

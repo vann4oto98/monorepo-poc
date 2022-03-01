@@ -1,6 +1,6 @@
 {
   "name": "@poc-components/core",
-  "version": "0.0.6",
+  "version": "0.0.0",
   "description": "",
   "keywords": [],
   "license": "ISC",
@@ -23,15 +23,10 @@
     "lint": "eslint ./lib/* --fix",
     "test": "jest"
   },
-  "devDependencies": {
-    "eslint": "^8.10.0",
-    "prettier": "^2.5.1"
-  },
   "dependencies": {
-    "@poc-components/button": "0.0.4",
-    "@poc-components/helpers": "0.0.4",
-    "@poc-components/link": "0.0.4",
-    "@poc-components/theme": "0.0.4",
-    "@poc-components/typography": "0.0.4"
+    "@poc-components/button": "0.0.0",
+    "@poc-components/helpers": "0.0.0",
+    "@poc-components/link": "0.0.0",
+    "@poc-components/typography": "0.0.0"
   }
 }
