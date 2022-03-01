@@ -17,12 +17,8 @@
     "access": "public"
   },
   "scripts": {
-    "publish": "yarn publish",
     "lint": "eslint ./lib/* --fix",
-    "test": "jest",
-    "major": "yarn version --major",
-    "minor": "yarn version --minor",
-    "patch": "yarn version --patch"
+    "test": "jest"
   },
   "dependencies": {
     "@mui/material": "5.4.0",

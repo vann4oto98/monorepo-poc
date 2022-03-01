@@ -11,10 +11,7 @@
   "scripts": {
     "init": "lerna bootstrap",
     "lint": "lerna run lint",
-    "publish": "lerna run publish",
-    "version-major": "lerna run major",
-    "version-minor": "lerna run minor",
-    "version-patch": "lerna run patch"
+    "publish": "lerna publish"
   },
   "devDependencies": {
     "lerna": "4.0.0",

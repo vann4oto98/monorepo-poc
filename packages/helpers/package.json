@@ -17,11 +17,10 @@
     "access": "public"
   },
   "scripts": {
-    "major": "yarn version --major",
-    "minor": "yarn version --minor",
-    "patch": "yarn version --patch",
-    "publish": "yarn publish",
     "lint": "eslint ./lib/* --fix",
     "test": "jest"
+  },
+  "dependencies": {
+    "react": "17.0.2"
   }
 }
