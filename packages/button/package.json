@@ -1,6 +1,6 @@
 {
   "name": "@poc-components/button",
-  "version": "0.0.6",
+  "version": "0.0.0",
   "description": "Button component",
   "keywords": [],
   "license": "ISC",
@@ -25,12 +25,6 @@
   },
   "dependencies": {
     "@mui/material": "5.4.0",
-    "@poc-components/theme": "0.0.2",
-    "prop-types": "15.7.2",
     "react": "17.0.2"
-  },
-  "devDependencies": {
-    "eslint": "^8.10.0",
-    "prettier": "^2.5.1"
   }
 }
