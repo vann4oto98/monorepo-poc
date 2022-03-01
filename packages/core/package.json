@@ -1,5 +1,5 @@
 {
-  "name": "@poc-components/core",
+  "name": "@poc-demo/core",
   "version": "0.0.1",
   "description": "",
   "keywords": [],
@@ -20,9 +20,11 @@
     "test": "jest"
   },
   "dependencies": {
-    "@poc-components/button": "^0.0.1",
-    "@poc-components/helpers": "^0.0.1",
-    "@poc-components/link": "^0.0.1",
-    "@poc-components/typography": "^0.0.1"
-  }
+    "@poc-demo/button": "^0.0.1",
+    "@poc-demo/helpers": "^0.0.1",
+    "@poc-demo/link": "^0.0.1",
+    "@poc-demo/modal": "^0.0.1",
+    "@poc-demo/typography": "^0.0.1"
+  },
+  "gitHead": "5c54c8c975f1e4ac780e2efca78c0f748cb62fc1"
 }

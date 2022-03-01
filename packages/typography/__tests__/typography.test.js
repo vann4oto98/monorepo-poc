@@ -1,3 +1,3 @@
-describe("@poc-components/typography", () => {
+describe("@poc-demo/typography", () => {
   it("needs tests");
 });

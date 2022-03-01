@@ -1,11 +1,11 @@
-# `@poc-components/button`
+# `@poc-demo/button`
 
 > TODO: description
 
 ## Usage
 
 ```
-import Button from '@poc-components/button'
+import Button from '@poc-demo/button'
 
 // TODO: DEMONSTRATE API
 ```

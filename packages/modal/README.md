@@ -1,11 +1,11 @@
-# `@poc-demo/link`
+# `@poc-demo/modal`
 
 > TODO: description
 
 ## Usage
 
 ```
-const link = require('@poc-demo/link');
+const modal = require('@poc-demo/modal');
 
 // TODO: DEMONSTRATE API
 ```

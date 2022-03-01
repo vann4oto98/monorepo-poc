@@ -1,5 +1,5 @@
 {
-  "name": "@poc-components/button",
+  "name": "@poc-demo/button",
   "version": "0.0.1",
   "description": "Button component",
   "keywords": [],
@@ -22,5 +22,6 @@
   "dependencies": {
     "@mui/material": "5.4.0",
     "react": "17.0.2"
-  }
+  },
+  "gitHead": "5c54c8c975f1e4ac780e2efca78c0f748cb62fc1"
 }

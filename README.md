@@ -1,15 +1,15 @@
-# `@poc-components`
+# `@poc-demo`
 
 # Examples
 
 ### Create the new package
 
 ```
-lerna create @poc-components/button --yes
+lerna create @poc-demo/button --yes
 ```
 
-### Add add the new package dependency into poc-components/core
+### Add add the new package dependency into poc-demo/core
 
 ```
-lerna add @poc-components/button -s-scope=@poc-components/core
+lerna add @poc-demo/button --scope=@poc-demo/core
 ```
