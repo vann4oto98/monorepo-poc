@@ -1,6 +1,6 @@
 {
   "name": "@poc-demo/core",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "keywords": [],
   "license": "ISC",
@@ -21,10 +21,10 @@
   },
   "dependencies": {
     "@poc-demo/button": "^0.0.2",
-    "@poc-demo/helpers": "^0.0.2",
-    "@poc-demo/link": "^0.0.2",
-    "@poc-demo/modal": "^0.0.2",
-    "@poc-demo/typography": "^0.0.2"
+    "@poc-demo/helpers": "^0.0.3",
+    "@poc-demo/link": "^0.0.3",
+    "@poc-demo/modal": "^0.0.3",
+    "@poc-demo/typography": "^0.0.3"
   },
   "gitHead": "5c54c8c975f1e4ac780e2efca78c0f748cb62fc1"
 }
