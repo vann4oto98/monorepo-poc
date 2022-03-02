@@ -1,6 +1,6 @@
 import React from "react";
 
-const withRef = (Component) => {
+export const withRef = (Component) => {
   const Wrapped = (props) => {
     const { forwardedRef, ...rest } = props;
 

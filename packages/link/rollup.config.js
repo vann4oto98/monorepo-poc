@@ -2,6 +2,6 @@ import configure from "../../rollup.config";
 import { dependencies } from "./package.json";
 
 export default configure({
-  input: "./index.js",
+  input: "./lib/index.jsx",
   dependencies
 });
