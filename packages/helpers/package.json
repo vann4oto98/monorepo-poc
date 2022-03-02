@@ -18,7 +18,8 @@
   },
   "scripts": {
     "lint": "eslint ./lib/* --fix",
-    "test": "jest"
+    "test": "jest",
+    "rollup": "rollup -c"
   },
   "dependencies": {
     "react": "17.0.2"
