@@ -11,7 +11,7 @@
   "scripts": {
     "init": "lerna bootstrap",
     "lint": "lerna run lint",
-    "publish": "lerna publish"
+    "pub": "lerna publish"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
